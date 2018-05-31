@@ -1,0 +1,13 @@
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="/">Shopping Cart <span class="small">- Peter Kaczmarski</span></a>
+    <div class="pull-right">
+      <a routerLink="/checkout" class="btn btn-success">
+        <i class="fas fa-shopping-cart"></i>
+        <span *ngIf="totalItems" class="badge">{{totalItems}}</span>
+      </a>
+    </div>
+    </div>
+  </div>
+</nav>

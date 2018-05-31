@@ -1,0 +1,213 @@
+{
+  "items": [
+    {
+      "image": "assets/images/100001.png",
+      "label": "Iphone 4",
+      "ref": "100001",
+      "cost": 320
+    },
+    {
+      "image": "assets/images/100002.png",
+      "label": "Iphone 4s",
+      "ref": "100002",
+      "cost": 350
+    },
+    {
+      "image": "assets/images/100003.png",
+      "label": "Iphone 5",
+      "ref": "100003",
+      "cost": 380
+    },
+    {
+      "image": "assets/images/100004.png",
+      "label": "Iphone 5s",
+      "ref": "100004",
+      "cost": 410
+    },
+    {
+      "image": "assets/images/100005.png",
+      "label": "Iphone 5 SE",
+      "ref": "100005",
+      "cost": 450
+    },
+    {
+      "image": "assets/images/100006.png",
+      "label": "Iphone 6",
+      "ref": "100006",
+      "cost": 470
+    },
+    {
+      "image": "assets/images/100007.png",
+      "label": "Iphone 6 Plus",
+      "ref": "100007",
+      "cost": 480
+    },
+    {
+      "image": "assets/images/100008.png",
+      "label": "Iphone 6s",
+      "ref": "100008",
+      "cost": 500
+    },
+    {
+      "image": "assets/images/100009.png",
+      "label": "Iphone 6s Plus",
+      "ref": "100009",
+      "cost": 510
+    },
+    {
+      "image": "assets/images/100010.png",
+      "label": "Iphone 7",
+      "ref": "100010",
+      "cost": 540
+    }
+  ],
+  "item": [
+    {
+      "image": "assets/images/100001.png",
+      "label": "Iphone 4",
+      "reference": "100001",
+      "cost": 320,
+      "brand": "Apple",
+      "model": "Iphone 4",
+      "description": "Released 2010, June<br>137g, 9.3mm thickness<br>iOS 4, up to iOS 7.1.2<br>8/16/32GB storage, no card slot",
+      "items_available": "10"
+    },
+    {
+      "image": "assets/images/100002.png",
+      "label": "Iphone 4s",
+      "reference": "100002",
+      "cost": 350,
+      "brand": "Apple",
+      "model": "Iphone 4s",
+      "description": "Released 2011, October<br>140g, 9.3mm thickness<br>iOS 5, up to iOS 9.3.5<br>8/16/32/64GB storage, no card slot",
+      "items_available": "9"
+    },
+    {
+      "image": "assets/images/100003.png",
+      "label": "Iphone 5",
+      "reference": "100003",
+      "cost": 380,
+      "brand": "Apple",
+      "model": "Iphone 5",
+      "description": "Released 2012, September<br>112g, 7.6mm thickness<br>iOS 6, up to iOS 10.3<br>16/32/64GB storage, no card slot",
+      "items_available": "8"
+    },
+    {
+      "image": "assets/images/100004.png",
+      "label": "Iphone 5s",
+      "reference": "100004",
+      "cost": 410,
+      "brand": "Apple",
+      "model": "Iphone 5s",
+      "description": "Released 2013, September<br>112g, 7.6mm thickness<br>iOS 7, up to iOS 10.3<br>16/32/64GB storage, no card slot",
+      "items_available": "7"
+    },
+    {
+      "image": "assets/images/100005.png",
+      "label": "Iphone 5 SE",
+      "reference": "100005",
+      "cost": 450,
+      "brand": "Apple",
+      "model": "Iphone 5 SE",
+      "description": "Released 2016, March<br>113g, 7.6mm thickness<br>iOS 9.3.2, up to iOS 10.3<br>16/64GB storage, no card slot",
+      "items_available": "6"
+    },
+    {
+      "image": "assets/images/100006.png",
+      "label": "Iphone 6",
+      "reference": "100006",
+      "cost": 470,
+      "brand": "Apple",
+      "model": "Iphone 6",
+      "description": "Released 2014, September<br>129g, 6.9mm thickness<br>iOS 8, up to iOS 10.3<br>16/32/64/128GB storage, no card slot",
+      "items_available": "5"
+    },
+    {
+      "image": "assets/images/100007.png",
+      "label": "Iphone 6 Plus",
+      "reference": "100007",
+      "cost": 480,
+      "brand": "Apple",
+      "model": "Iphone 6 Plus",
+      "description": "Released 2014, September<br>172g, 7.1mm thickness<br>iOS 8, up to iOS 10.3<br>16/64/128GB storage, no card slot",
+      "items_available": "4"
+    },
+    {
+      "image": "assets/images/100008.png",
+      "label": "Iphone 6s",
+      "reference": "100008",
+      "cost": 500,
+      "brand": "Apple",
+      "model": "Iphone 6s",
+      "description": "Released 2015, September<br>143g, 7.1mm thickness<br>iOS 9, up to iOS 10.3<br>16/32/64/128GB storage, no card slot",
+      "items_available": "3"
+    },
+    {
+      "image": "assets/images/100009.png",
+      "label": "Iphone 6s Plus",
+      "reference": "100009",
+      "cost": 510,
+      "brand": "Apple",
+      "model": "Iphone 6s Plus",
+      "description": "Released 2015, September<br>192g, 7.3mm thickness<br>iOS 9, up to iOS 10.3<br>16/32/64/128GB storage, no card slot",
+      "items_available": "2"
+    },
+    {
+      "image": "assets/images/100010.png",
+      "label": "Iphone 7",
+      "reference": "100010",
+      "cost": 540,
+      "brand": "Apple",
+      "model": "Iphone 7",
+      "description": "Released 2016, September<br>138g, 7.1mm thickness<br>iOS 10.0.1, up to iOS 10.3<br>32/128/256GB storage, no card slot",
+      "items_available": "88"
+    }
+  ],
+  "purchase": [
+    {
+      "total_cost": 320,
+      "total_items": 1,
+      "items_ref": [
+        "100001"
+      ],
+      "id": 1
+    },
+    {
+      "total_cost": 320,
+      "total_items": 1,
+      "items_ref": [
+        "100001"
+      ],
+      "id": 2
+    },
+    {
+      "total_cost": 670,
+      "total_items": 2,
+      "items_ref": [
+        "100001",
+        "100002"
+      ],
+      "id": 3
+    },
+    {
+      "total_cost": 1050,
+      "total_items": 3,
+      "items_ref": [
+        "100001",
+        "100002",
+        "100003"
+      ],
+      "id": 4
+    },
+    {
+      "total_cost": 1240,
+      "total_items": 3,
+      "items_ref": [
+        "100004",
+        "100003",
+        "100005"
+      ],
+      "id": 5
+    }
+  ]
+}

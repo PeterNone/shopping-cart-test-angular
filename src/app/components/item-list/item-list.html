@@ -1,0 +1,39 @@
+<div id="item_list">
+  <div class="container m-t-lg m-b-lg">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="m-t-0">Products</h2>
+        
+        <div class="row" *ngIf="items;else loading">
+          <div 
+               *ngFor="let item of items"
+               class="col- col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail">
+              <div class="p-a-sm">
+                <a [routerLink]="['/items', item.ref]" class="image-header center-block">
+                  <img [src]="item.image" alt="{{item.label}}" class="img-responsive center-block">
+                </a>
+              </div>
+              <div class="caption p-t-sm">
+                <h3 class="m-b-0 m-t-0">{{item.label}}</h3>
+                <h5 class="m-t-0 m-b-sm"><span class="small">Ref: {{item.ref}}</span></h5>
+                
+                <h4 class="text-primary">{{item.cost | currency : undefined : true}}</h4>
+                <p class="m-b-0">
+                  <a [routerLink]="['/items', item.ref]" class="btn btn-info" role="button"><i class="fas fa-info fa-sm"></i></a>
+                  <a (click)="addToCart(item)" class="pull-right btn btn-success" role="button"><i class="fas fa-cart-plus fa-lg"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ng-template #loading>
+          <div class="alert alert-info" role="alert">
+            Loading...
+          </div>
+        </ng-template>
+        
+      </div>
+    </div>
+  </div>
+</div>

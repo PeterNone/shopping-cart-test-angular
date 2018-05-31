@@ -1,0 +1,67 @@
+<div id="checkout">
+  <div class="container m-t-lg m-b-lg">
+    <div class="row">
+      <div class="col-xs-12">
+        <h2 class="m-t-0">Checkout</h2>
+        
+        <div *ngIf="cartItems.length;else noItems">
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th width="40%">Label</th>
+                  <th width="20%">Quantity</th>
+                  <th width="20%" class="text-right">Subtotal</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr checkout-item 
+                  *ngFor="let item of cartItems"
+                  [item]="item"
+                  ></tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="4">
+                    <h4 class="text-right m-t-xs m-b-0">
+                      <b>{{ totalItems }}</b> <span class="small">items of total value</span> <b>{{ total | currency : undefined : true }}</b>
+                    </h4>
+                  </td>
+                  <td align="center">
+                    <button (click)="deteleAllCartItems()" class="btn btn-danger">
+                      <i class="fas fa-trash-alt fa-lg"></i>
+                    </button>
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          
+          <p class="text-left">
+            
+            <a [routerLink]="['/items']" class="btn btn-info">
+              <i class="fas fa-angle-left"></i> 
+              Continue Shopping
+            </a>
+           
+            <button 
+              [disabled]="!totalItems"
+              (click)="purchaseAllCartItems()"
+              class="btn btn-success pull-right">
+              Purchase <i class="fas fa-credit-card fa-lg"></i>
+            </button>
+          </p>
+        </div>
+        <ng-template #noItems>
+          <div class="alert alert-info">
+            No Items in Shopping Cart...
+            <a [routerLink]="['/items']" class="alert-link">Add products to the basket</a>
+          </div>
+        </ng-template>
+        
+      </div>
+    </div>
+  </div>
+</div>

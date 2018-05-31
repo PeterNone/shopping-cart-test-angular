@@ -1,0 +1,21 @@
+<div class="container-fluid p-x-0 modal-component" *ngIf="show" [@easeInOut]>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        
+        <div class="alert"
+          [ngClass]="{
+              'alert-success': type === 'success',
+              'alert-info': type === 'info',
+              'alert-warning': type === 'warning',
+              'alert-danger': type === 'danger'
+            }"
+          role="alert"
+          [innerHTML]="message"
+          >
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>

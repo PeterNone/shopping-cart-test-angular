@@ -1,0 +1,54 @@
+<td>
+  <a [routerLink]="['/items', item.ref]" >
+    <img class="pull-left img-responsive" [src]="item.image" alt="{{item.label}}" style="max-width:60px;">
+  </a>
+</td>
+
+<td>
+  <a [routerLink]="['/items', item.ref]" >
+    {{item.label}}
+  </a>
+</td>
+
+<td>
+  <div class="input-group">
+    <span class="input-group-btn">
+      <button 
+        (click)="chnageClickHandler(-1)"
+        class="btn btn-default" 
+        type="button">
+        <i class="fas fa-minus fa-sm"></i>
+      </button>
+    </span>
+    <input 
+      type="text" 
+      class="form-control text-center" 
+      [value]="item.qt" 
+      unselectable="on"
+      autocomplete="off"
+      preventfocus="true"
+      readonly="readonly"
+      tabindex="-1"
+      onselectstart="return false;"
+      onmousedown="return false;"
+      />
+    <span class="input-group-btn">
+      <button 
+        (click)="chnageClickHandler(1)"
+        class="btn btn-default" 
+        type="button">
+        <i class="fas fa-plus fa-sm"></i>
+      </button>
+    </span>
+  </div>
+</td>
+
+<td align="right">
+  {{item.qt * item.cost | currency : undefined : true }}
+</td>
+
+<td align="center">
+  <button (click)="deteleCartItem()" class="btn btn-warning">
+    <i class="fas fa-trash-alt fa-lg"></i>
+  </button>
+</td>
