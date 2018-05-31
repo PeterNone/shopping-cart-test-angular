@@ -163,51 +163,5 @@
       "items_available": "88"
     }
   ],
-  "purchase": [
-    {
-      "total_cost": 320,
-      "total_items": 1,
-      "items_ref": [
-        "100001"
-      ],
-      "id": 1
-    },
-    {
-      "total_cost": 320,
-      "total_items": 1,
-      "items_ref": [
-        "100001"
-      ],
-      "id": 2
-    },
-    {
-      "total_cost": 670,
-      "total_items": 2,
-      "items_ref": [
-        "100001",
-        "100002"
-      ],
-      "id": 3
-    },
-    {
-      "total_cost": 1050,
-      "total_items": 3,
-      "items_ref": [
-        "100001",
-        "100002",
-        "100003"
-      ],
-      "id": 4
-    },
-    {
-      "total_cost": 1240,
-      "total_items": 3,
-      "items_ref": [
-        "100004",
-        "100003",
-        "100005"
-      ],
-      "id": 5
-    }
-  ]
+  "purchase": [ ]
 }
